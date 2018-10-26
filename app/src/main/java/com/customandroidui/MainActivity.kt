@@ -20,9 +20,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         val arrayList = ArrayList<BusinessHour>()
-        for (i in 1..8) {
+        for (i in 1..8)
             arrayList.add(BusinessHour(BusinessDay.valueOf(i), 8, 0, 18, 0))
-        }
         openHours.initBusinessHour(arrayList)
     }
 }
