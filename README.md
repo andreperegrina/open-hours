@@ -53,6 +53,18 @@ Here are the attributes you can specify in the XML layout:
 
 To inizialice the component you need to send an array of `BussinessHour` like in this example:
 
+Java:
+
+```java
+OpenHours openHours = findViewById<OpenHours>(R.id.open_hours_component);
+ArrayList<BusinessHour> arrayList = new ArrayList<BusinessHour>();
+for (int i = 0; i < 8; i++)
+    arrayList.add(new BusinessHour(BusinessDay.valueOf(i), 8, 0, 18, 0));
+openHours.initBusinessHour(arrayList);
+```
+
+Kotlin:
+
 ```kotlin
 val openHours = findViewById<OpenHours>(R.id.open_hours_component)
 val arrayList = ArrayList<BusinessHour>()
@@ -64,6 +76,27 @@ openHours.initBusinessHour(arrayList)
 This example will init from **sunday** to **saturday** the business hours to **8:00 AM** to **6:00 PM**. Like the example below:
 
 ![header](./preview2.png)
+
+Now, if you want to make the table open, you need to call the `toggleOpenHours()` method:
+
+Java:
+
+```java
+openHours.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        openHours.toggleOpenHours();
+    }
+});
+```
+
+Kotlin:
+
+```kotlin
+openHours.setOnClickListener {
+    openHours.toggleOpenHours()
+}
+```
 
 ## Other functionality
 
