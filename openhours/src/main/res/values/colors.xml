@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_keyboard_arrow">#76818a</color>
+    <color name="open_hours_default_color">#404547</color>
+    <color name="open_until">#348af7</color>
+    <color name="closed_since">#F16C00</color>
+    <color name="opens_at">#404547</color>
+</resources>

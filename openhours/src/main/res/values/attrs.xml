@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="openHours">
+        <attr name="openHoursCurrentHour" format="string" />
+        <attr name="openHoursMondayLabel" format="string" />
+        <attr name="openHoursMondayValue" format="string" />
+        <attr name="openHoursTuesdayLabel" format="string" />
+        <attr name="openHoursTuesdayValue" format="string" />
+        <attr name="openHoursWednesdayLabel" format="string" />
+        <attr name="openHoursWednesdayValue" format="string" />
+        <attr name="openHoursThursdayLabel" format="string" />
+        <attr name="openHoursThursdayValue" format="string" />
+        <attr name="openHoursFridayLabel" format="string" />
+        <attr name="openHoursFridayValue" format="string" />
+        <attr name="openHoursSaturdayLabel" format="string" />
+        <attr name="openHoursSaturdayValue" format="string" />
+        <attr name="openHoursSundayLabel" format="string" />
+        <attr name="openHoursSundayValue" format="string" />
+    </declare-styleable>
+</resources>
