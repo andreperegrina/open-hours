@@ -51,7 +51,7 @@ Here are the attributes you can specify in the XML layout:
 - `openHoursFridayLabel` - Default value is Friday
 - `openHoursSaturdayLabel` - Default value is Saturday
 
-To inizialice the component you need to send an array of `BussinessHour` like in this example:
+To initialize the component you need to send an array of `BussinessHour` like in this example:
 
 Java:
 
